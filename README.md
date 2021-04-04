@@ -42,6 +42,11 @@ In your package.json add script to start
 ```json
 "scripts": {
     "start": "nodemon index.ts"
-    ...
+    
   },
 ```
+5. Finally run server with 
+```console
+  yarn start
+```
+
