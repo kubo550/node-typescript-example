@@ -4,12 +4,14 @@
 ## Do It Yourself 
 
 Must have: 
+* node
 * yarn 
 * tsc
 
 Make sure you have all
 
 ```console
+  node -v
   yarn -v
   tsc -v
 ```
