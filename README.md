@@ -23,5 +23,25 @@ Make sure you have all
 2. Intsall necessary dev dependencies 
 
 ```console
-  yarn add -D 
+  yarn add -D @types/node ts-node typescript
+```
+
+3. Create tsconfig.json file
+
+```console
+  tsc --init
+```
+
+4. You're ready to install nodemon 
+
+```console
+  yarn add -D nodemon
+```
+In your package.json add script to start
+
+```json
+"scripts": {
+    "start": "nodemon index.ts"
+    ...
+  },
 ```
