@@ -51,4 +51,6 @@ In your package.json add script to start
 ```console
   yarn start
 ```
+## Read More
 
+Read more click [here](https://blog.logrocket.com/typescript-with-node-js-and-express/)
