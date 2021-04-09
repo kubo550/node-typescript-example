@@ -27,7 +27,7 @@ Make sure you have all
 ```console
   yarn add -D @types/node ts-node typescript
 ```
-
+This step is optional
 3. Create tsconfig.json file
 
 ```console
@@ -43,7 +43,7 @@ In your package.json add script to start
 
 ```json
 "scripts": {
-    "start": "nodemon index.ts"
+    "start": "ts-node index.ts"
     
   },
 ```
