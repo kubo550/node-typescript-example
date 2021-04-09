@@ -27,7 +27,7 @@ Make sure you have all
 ```console
   yarn add -D @types/node ts-node typescript
 ```
-This step is optional
+_This step is optional_  
 3. Create tsconfig.json file
 
 ```console
