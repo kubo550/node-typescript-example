@@ -27,13 +27,13 @@ Make sure you have all
 ```console
   yarn add -D @types/node ts-node typescript
 ```
-_This step is optional_  
 3. Create tsconfig.json file
 
 ```console
   tsc --init
 ```
 
+_This step is optional_  
 4. You're ready to install nodemon 
 
 ```console
